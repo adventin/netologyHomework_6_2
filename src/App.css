@@ -1,0 +1,68 @@
+body {
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-label {
+  margin-bottom: .5rem;
+}
+
+.form-field {}
+
+.form-button {
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  margin-left: auto;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.card {
+  position: relative;
+  width: 15rem;
+  padding: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid #323232;
+}
+
+.card .remove {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border: 1px solid #323232;
+  border-radius: 50%;
+  line-height: 32px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.refresh, 
+.remove {
+  cursor: pointer;
+}
